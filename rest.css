@@ -1,0 +1,155 @@
+body
+{
+	background-color: #d54b2e;
+}
+header
+{
+	background-image: url('photo.jpg');
+	background-repeat: no-repeat;
+	height: 500px;
+	background-size: cover;
+	width: 100%;
+}
+.navbar
+{
+	display: flex;
+	justify-content: space-between;
+	background-color: black;
+}
+.navbar ul
+{
+	display: flex;
+}
+.navbar ul li
+{
+	display: inline-flex;
+	padding: 0px 10px;
+	color: white;
+	font-size: 18px;
+	float: right;
+}
+.search
+{
+	margin-top: 190px;
+	margin-left: 500px;
+	padding: 20px;
+	font-size: 18px;
+	justify-content: center;
+	align-items: center;
+}
+.starters
+{
+	background-color: black;
+	justify-content: space-between;
+	display: flex;
+	margin-top: 15px
+}
+.starters h1
+{
+	color: white;
+	text-align: center;
+}
+.starters ul li
+{
+	font-size: 30px;
+	color: white;
+	list-style-type: none;
+	text-align: center;
+}
+.starters img
+{
+	height: 200px;
+	width: 200px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	border-radius: 10px;
+}
+.menu
+{
+	border: 4px solid black;
+	background-color: #f34a75;
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+.break
+{
+	padding: 10px;
+}
+.break ul li
+{
+	font-family: Lucida Calligraphy;
+	list-style-type: none;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+}
+.lunch
+{
+	padding: 10px;
+	text-align: center;
+}
+.lunch ul li
+{
+	list-style-type: none;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	font-family: Lucida Calligraphy;
+}
+.dinner
+{
+	padding: 10px;
+}
+.dinner ul li
+{
+	list-style-type: none;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	font-family: Lucida Calligraphy;
+}
+.dessert
+{
+	text-align: center;
+	margin-top: 10px;
+	background-color:black; 
+	color: white;
+	display: flex;
+	justify-content: space-between;
+}
+.dessert ul li
+{
+	list-style-type: none;
+	font-size: 20px;
+}
+.dessert img
+{
+	height: 150px;
+	width: 150px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+	border-radius: 10px;
+}
+.footer
+{
+	justify-content: space-between;
+	background-color: grey;
+	font-size: 18px;
+	color: black;
+	display: flex;
+}
+.f1
+{
+	margin: 10px;
+	font-family: times new roman;
+}
+.f2 img 
+{
+	height: 50px;
+	width: 50px;
+	margin-top: 35px;
+}
